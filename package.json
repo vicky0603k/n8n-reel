@@ -1,0 +1,14 @@
+{
+  "name": "n8n-reel", 
+  "version": "1.0.0",
+  "description": "N8N for Instagram reels",
+  "scripts": {
+    "start": "n8n start"
+  },
+  "dependencies": {
+    "n8n": "^1.0.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
