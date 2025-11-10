@@ -1,8 +1,5 @@
-[phases.setup]
-cmds = ["apt-get update"]
+[phases.install]
+cmds = ["npm install"]
 
-[phases.install] 
-cmds = ["npm install -g n8n"]
-
-[start]
-cmd = "n8n start"
+[start] 
+cmd = "npm start"
